@@ -5,7 +5,7 @@
 
 ## Results
 
-![Naive Oversampling BAS](Resources/naive_oversampling_bas.png)
+Balance Accuracy Score: ![Naive Oversampling BAS](Resources/naive_oversampling_bas.png)
 ![Naive Oversampling](Resources/naive_oversampling.png)
 
 ![SMOTE BAS](Resources/smote_bas.png)
