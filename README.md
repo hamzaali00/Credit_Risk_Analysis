@@ -87,8 +87,12 @@ The purpose of this analysis was to determine which technique or machine learnin
 - 7% precision of determining high risk with 91% sensitivity, F1 of 14%
 - 100% precision of determining low risk with 94% sensitivity, F1 of 97%
 
+-----------------------
 
 ## Summary
 
+The Ensemble Classifiers, BalancedRandomForestClassifier and EasyEnsembleClassifier, were better at predicting high credit risk. 
+The BalancedRandomForestClassifier had 4% precision and the EasyEnsembleClassifier had 7% precision when predicting high risk, compared to the 1% precision of the Resampling models: Naive Oversampling, SMOTE Oversampling, CLusterCentroid Undersampling, SMOTEENN Over Under Sampling.
 
+When dealing with credit card risk being able to predict high credit risk is important. Therefore, I would choose none of these options to predict credit risk.
 
